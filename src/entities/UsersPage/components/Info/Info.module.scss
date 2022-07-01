@@ -1,0 +1,92 @@
+.nav {
+  display: flex;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.Nav_top {
+  display: flex;
+  margin-left: 50px;
+  padding-bottom: 40px;
+  margin-top: 45px;
+}
+
+.nav_ad {
+  width: 146px;
+  height: 32px;
+  left: 678px;
+  top: 112px;
+  padding-right: 500px;
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  display: flex;
+  align-items: center;
+
+  color: #2c2d2e;
+}
+
+.hr {
+  width: 867px;
+  height: 0px;
+  left: 678px;
+  top: 200px;
+  margin-left: 40px;
+  border: 1px solid rgba(42, 47, 55, 0.1);
+}
+
+.test_input {
+  display: flex;
+  width: 420px;
+  height: 40px;
+  margin-left: 40px;
+  margin-top: 30px;
+  border: 3px solid rgb(255, 255, 255);
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #0a0a0a;
+  opacity: 0.4;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  background-image: url('https://img.icons8.com/fluency-systems-filled/48/undefined/search.png');
+  background-repeat: no-repeat;
+  background-position: 356px;
+
+  outline: none;
+}
+
+.list_group_info {
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
+  text-align: left;
+  align-items: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+  color: #2c2d2e;
+
+  opacity: 0.6;
+  width: 828px;
+  height: 40px;
+  background: #ffffff;
+  justify-content: space-around;
+}
+
+.table {
+  display: flex;
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+.nameTab{
+  display: flex;
+}

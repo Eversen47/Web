@@ -1,0 +1,16 @@
+.page_wrapper {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.section_wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.content_wrapper {
+  padding: 10px;
+  height: 100vh;
+}

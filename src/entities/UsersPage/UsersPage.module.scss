@@ -1,0 +1,175 @@
+.content{
+  display: flex;
+  align-items: center;
+}
+
+.post{
+  display: flex;
+  width: 800px;
+  height: 80px;
+
+  text-align: center;
+
+  background: #ffffff;
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  
+
+  margin-top: 10px;
+  list-style-type: none;
+  cursor: pointer;
+  align-items: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  justify-content: space-around;
+  margin-left: 40px;
+  
+}
+
+.post li{
+
+display: block;
+width: 53px;
+height: 24px;
+left: 980px;
+top: 364px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+
+display: flex;
+align-items: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+
+color: #2C2D2E;
+}
+
+
+.menu{
+padding-right: 50px;
+padding-bottom: 50px;
+
+}
+
+.icon{
+margin: 0;
+padding: 0;
+}
+
+.menu a {
+ text-decoration: none;
+ padding-left: 20px;
+}
+
+.menu p {
+
+ list-style: none;
+ position: relative;
+ text-align:  left;
+ margin: 0;
+ padding-left: 30px;
+ 
+}
+
+.menu li:hover {
+ background: rgba(44, 45, 46, 0.04);
+border: 1px solid rgba(44, 45, 46, 0.08); 
+} 
+
+
+.menu_list {
+position: absolute;
+
+ color: #ffffff;
+}
+
+.menu_list:hover .subMenu_list {
+ display: block;
+}
+
+.subMenu_list {
+display: none; 
+
+ position: absolute;
+ 
+ right: 10px;
+ top: 20px;
+ padding: 10px 0 0 0;
+ width: 242px;
+ height: 170px;
+ background: #ffffff;
+ border: 0 solid rgba(44, 45, 46, 0.08);
+
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+color: #2C2D2E;
+ 
+}
+
+.subMenu_list_1:hover {
+background: rgba(44, 45, 46, 0.04);
+border: 1px solid rgba(44, 45, 46, 0.08); 
+} 
+
+.subMenu_list_2:hover {
+background: rgba(44, 45, 46, 0.04);
+border: 1px solid rgba(44, 45, 46, 0.08); 
+} 
+
+.subMenu_list_3:hover {
+background: rgba(44, 45, 46, 0.04);
+border: 1px solid rgba(44, 45, 46, 0.08); 
+} 
+
+
+.subMenu_link {
+ display: inline-block;
+ padding: 15px 10px;
+
+ color: #2C2D2E;
+ justify-content: space-between;
+}
+
+
+
+.subMenu_link:hover {
+   color: blue;
+ }
+
+ .nav_ad {
+  width: 146px;
+  height: 32px;
+  left: 678px;
+  top: 112px;
+  padding-right: 500px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  display: flex;
+  align-items: center;
+
+  color: #2c2d2e;
+}
+
+.create_user{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 20px;
+}
