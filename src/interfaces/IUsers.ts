@@ -1,7 +1,7 @@
 export interface IUsers {
   id: number;
   title: string;
-  price: string;
+  price?: string;
   category: string;
   // address: {
   //   street: string;

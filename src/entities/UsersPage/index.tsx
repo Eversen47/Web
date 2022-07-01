@@ -32,7 +32,9 @@ const UsersPage = () => {
   }, [pathname, navigate, search]);
 
   useEffect(() => {
-    getData(usersUrl);
+    setTimeout(() => {
+      getData(usersUrl);
+    }, 1500);
     // dispatch({ type: 'SET_DATA', payload: [1, 2, 3] });
   }, []);
 

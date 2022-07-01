@@ -1,7 +1,6 @@
 import React, { FC } from 'react';
 import { Link } from 'react-router-dom';
 import style from '../UsersPage.module.scss';
-import Info from './Info/Info';
 
 interface IProps {
   id: number;
