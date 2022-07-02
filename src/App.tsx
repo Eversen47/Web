@@ -14,7 +14,7 @@ const App = () => {
         <Route path="/" element={<UsersPage />} />
         <Route path="users_page" element={<UsersPage />} />
         <Route path="users_page/:id" element={<UserComponent />} />
-        <Route path="test_page" element={<UsersPageComponent usersDataAttr={[]} />} />
+        <Route path="test_page" element={<UsersPageComponent />} />
       </Routes>
     </PageLayout>
   );

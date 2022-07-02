@@ -52,7 +52,7 @@ const UsersPageComponent: FC<IProps> = ({ usersDataAttr }) => {
         )}
 
         <Pagination limit={3} itemsAmount={usersDataAttr.length} />
-        {/* <form className={style.create_user} onSubmit={handleFormSumdit}>
+        <form className={style.create_user} onSubmit={handleFormSumdit}>
           <input
             type="text"
             placeholder="Товар"
@@ -66,7 +66,7 @@ const UsersPageComponent: FC<IProps> = ({ usersDataAttr }) => {
             onChange={(event) => setCategoryValue(event.target.value)}
           />
           <button type="submit">Добавить товар</button>
-        </form> */}
+        </form>
       </div>
     </div>
   );
