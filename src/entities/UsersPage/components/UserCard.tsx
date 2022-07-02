@@ -32,9 +32,9 @@ const UserCard: FC<IProps> = ({ id, title, category }) => {
 
               <ul className={style.subMenu_list_2}>
                 <img src="./img/pan.png" alt="" />
-                <a href="users_page/:id" className={style.subMenu_link}>
+                <Link to={`${id}`} className={style.subMenu_link}>
                   Редактировать
-                </a>
+                </Link>
               </ul>
 
               <ul className={style.subMenu_list_3}>
