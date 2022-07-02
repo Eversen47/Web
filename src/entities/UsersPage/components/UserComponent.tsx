@@ -6,9 +6,9 @@ const UserComponent = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div>{id}</div>
-      <div>{title}</div>
-      <div>{category}</div>
+      <input value={id} />
+      <input value={title} />
+      <input value={category} />
       <button type="button" onClick={() => navigate(-1)}>
         Вернуться назад
       </button>
