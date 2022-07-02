@@ -34,7 +34,7 @@ const UsersPage = () => {
   useEffect(() => {
     setTimeout(() => {
       getData(usersUrl);
-    }, 1500);
+    }, 0);
     // dispatch({ type: 'SET_DATA', payload: [1, 2, 3] });
   }, []);
 
